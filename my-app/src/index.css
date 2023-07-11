@@ -1,0 +1,90 @@
+body{
+  margin: 0px;
+}
+*{
+  background: border-box;
+}
+.header{
+  display: flex;
+  padding: 0px 10px;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid gainsboro;
+}
+.body-tag{
+  background-color: gainsboro;
+  display: inline-flex;
+}
+.sidebar{
+  display: grid;
+  margin: 0px 20%;
+  padding-left: 10%;
+}
+.first{
+  margin: 0px 12%;
+}
+.search{
+  border-radius: 30%;
+}
+.img-tag{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.img-pop{
+  width: 50%;
+  border: #EFB0C9 3%;
+  border-radius: 50%;
+}
+.img-prop{
+  display: grid;
+  margin: 0px;
+  padding: 0px;
+  width: 4%;
+  border-radius: 50%;
+  border: 3px solid #EFB0C9;
+}
+.middle{
+  border: 2px solid;
+  width: 200%;
+  
+}
+.middle-curve{
+  height: 500px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  border-radius: 15%;
+  background-color: lightpink;
+}
+.h1 {
+  border: 2px solid;
+  width: 14%;
+  padding: 0px 2%;
+  border-radius: 31%;
+}
+.h2{
+  border: 2px solid;
+  width: 10%;
+  padding: 0px 2%;
+  border-radius: 31%;
+}
+.h3{
+  border: 2px solid;
+  width: 5%;
+  padding: 0px 2%;
+  border-radius: 31%;
+}
+.edu{
+  display: grid;
+  grid-template-columns: 86% 70%;
+}
+.h1-tag{
+  font-size: 100px;
+  padding: 5% 10%;
+  margin-top: 0px;
+}
+.h4-tag{
+  margin-top: 20px;
+}
